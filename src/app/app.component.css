@@ -1,0 +1,41 @@
+ .w3-bar{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+  height: 58px;
+   display: flex;
+   align-items: center;
+   background-color: #fafafa;
+   color: rgb(10, 10, 10);
+   font-weight: 600;
+   z-index: 5;
+   font-size: 16px;
+transition: font-size 6s 1s;
+border-bottom: 5px solid rgb(13, 13, 13) ;
+
+ }
+ .w3-bar a{
+padding: 5px 5px 5px 15px;
+text-decoration: none;
+
+}
+ .w3-bar a:hover {
+  color: rgb(72, 74, 74);
+text-shadow: 1px 1px 0px rgb(207, 207, 207);
+font-size: 16.3px;
+}
+
+ .w3-bar a.active {
+
+  color: rgb(10, 50, 252);
+}
+
+hr {
+  margin: 1rem 0;
+}
+@media screen and (max-width: 450px) {
+  .w3-bar,nav a {
+    padding-left: 15px;
+  }
+}

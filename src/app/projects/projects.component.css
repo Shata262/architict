@@ -1,0 +1,58 @@
+
+
+
+div {
+  position: absolute;
+  right: 0;
+  width: 100vw;
+}
+
+
+section {
+  height: 100vh;
+  background-size: cover;
+  background-repeat:no-repeat ;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+section:nth-child(1) {
+  background-image: url("../../assets/imge3/3060214.jpg");
+}
+
+section:nth-child(2) {
+  background-image: url("../../assets/imge3/maxresdefault.jpg");
+}
+
+section:nth-child(3) {
+  background-image: url("../../assets/imge3/download.jpeg");
+}
+
+section:nth-child(4) {
+  background-image: url("../../assets/imge3/4_bhk_villa-for-sale-karyavattom-Thiruvananthapuram-others.webp");
+}
+
+section:nth-child(5) {
+  background-image: url("../../assets/imge3/4-cent-trivandrum-home-view.jpg");
+}
+
+section:nth-child(6) {
+  background-image: url("../../assets/imge3/435117.jpg");
+}
+
+section:nth-child(7) {
+  background-image: url("../../assets/imge3/3060214.jpg");
+}
+
+section:nth-child(8) {
+  background-image: url("../../assets/imge3/181063.webp");
+}
+
+section:nth-child(9) {
+  background-image: url("../../assets/imge3/4-cent-trivandrum-home-view.jpg");
+}
+
+section:nth-child(10) {
+  background-image: url("../../assets/imge3/3060213.jpg");
+}
